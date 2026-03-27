@@ -1,5 +1,5 @@
 /**
- * WUD supported Docker labels.
+ * WUD supported Coreels.
  */
 module.exports = {
     /**

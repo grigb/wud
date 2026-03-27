@@ -1,5 +1,5 @@
 # Configuration
-WUD is relying on **Environment Variables** and **[Docker labels](https://docs.docker.com/config/labels-custom-metadata/)** to configure all the components.
+WUD is relying on **Environment Variables** and **[Coreels](https://docs.docker.com/config/labels-custom-metadata/)** to configure all the components.
 
 Please find below the documentation for each of them:
 > [**Authentication**](/configuration/authentications/)
