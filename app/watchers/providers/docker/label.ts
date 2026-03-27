@@ -1,6 +1,6 @@
 // @ts-nocheck
 /**
- * WUD supported Docker labels.
+ * WUD supported Coreels.
  */
 
 /**
