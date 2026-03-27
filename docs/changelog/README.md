@@ -1,10 +1,35 @@
 # Changelog
 
-## dev
+## 8.2.2
+- :star: Add public Codeberg registry (codeberg.org) to the list of default supported registries
+- :star: Add public Forgejo registry (code.forgejo.org) to the list of default supported registries
+- :fire: Fix startup errors for some users
+
+## 8.2.1
+- :lock: Migrate backend to typescript
+- :fire: [APPRISE] - Fix bad request error ("Payload lacks minimum requirements")
+- :fire: [DISCORD] - Fix bad request error ("Invalid URL")
+- :fire: [NTFY] - Fix token auth
+- :fire: Fix metrics related errors when Prometheus is disabled
+- :fire: Fix `wud.watch.digest` not respected
+
+## 8.2.0
+- :star: Add TrueForge Container Registry support (oci.trueforge.org)
+- :star: Add Codeberge registry
+- :star: Allow disabling Prometheus metrics
+- :star: Enable digest watching by default (except for Docker hub images)
+- :star: Ensure tag candidates keep same number of semver parts
+- :star: Ensure tag candidates keep same prefix
+- :star: Add `wud.compose.file` supported label
+- :star: Add Rocket.chat trigger
+- :star: [SMTP] - Allow from address to take a display name
 - :lock: [UI] - Migrate to Vue 3
 - :lock: [UI] - Migrate to Vuetify 3
+- :lock: [UI] - Migrate to typescript
 - :lock: Upgrade to node.js 24
-- :star: Add TrueForge Container Registry support (oci.trueforge.org)
+- :lock: Switch to Alpine docker image
+- :fire: Fix docker-compose yaml when many aliases
+- :fire: Ignore `sig` tags
 
 ## 8.1.1
 - :fire: [TELEGRAM] - Fix markdown character escape
